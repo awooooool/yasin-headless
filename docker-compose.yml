@@ -3,7 +3,7 @@ services:
     image: awooooool/yasin
     build: .
     volumes:
-      - ./serverconfig.xml:/7daystodie/serverconfig.xml
+      - ./config/serverconfig.xml:/7daystodie/serverconfig.xml
       - ./saves:/root/.local/share/7DaysToDie/Saves
       - ./script/startserver.sh:/7daystodie/startserver.sh
       - ./logs:/7daystodie/7DaysToDieServer_Data/Logs
