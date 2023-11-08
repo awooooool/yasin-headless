@@ -6,6 +6,7 @@ services:
       - ./config/serverconfig.xml:/7daystodie/serverconfig.xml
       - ./saves:/root/.local/share/7DaysToDie/Saves
       - ./script/startserver.sh:/7daystodie/startserver.sh
+      - ./script/gameupdater.sh:/root/gameupdater.sh
       - ./logs:/7daystodie/7DaysToDieServer_Data/Logs
     ports:
       - 26900:26900/tcp
