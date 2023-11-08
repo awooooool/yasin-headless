@@ -1,3 +1,6 @@
 logs
 saves/*
 !saves/.gitkeep
+config/*
+!config/.gitkeep
+!config/serverconfig.xml.example
