@@ -1,6 +1,7 @@
 services:
   yasin:
     image: awooooool/yasin
+    restart: unless-stopped
     build: .
     volumes:
       - ./config/serverconfig.xml:/7daystodie/serverconfig.xml
